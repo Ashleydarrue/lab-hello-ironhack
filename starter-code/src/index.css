@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav{
+  height: 50px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
+.nav-bar ul{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1110px;
+}
+.nav-bar li{
+  font-size: 15px;
+margin: 0px 15px;
+text-decoration: none;
+}
+
+.nav-bar h4{margin-top: 10px;
+  margin-left: 20px;
+  font-family: cursive;
+}
+
+.theHeader{
+  margin-bottom: 40px;
+  background-image: url(/images/time.jpg);
+  background-size: cover;
+  height: 900px;
+  background-repeat: no-repeat;
+}
+.theHeader h2{
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 450px;
+  font-size: 70px;
+  font-family: cursive;
+  margin: 0px 0px;
+}
